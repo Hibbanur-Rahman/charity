@@ -228,7 +228,126 @@
     .learn {
         width: 50%;
     }
-    .learn p:nth-child(1){
+
+    .learn p:nth-child(1) {
         text-align: center;
+    }
+
+
+    .recent-campaign {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+        padding-top: 100px;
+    }
+    #recent-head-p{
+        font-size: 21px;
+        padding-bottom: 20px;
+    }
+    .recent-campaign h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .viewAll {
+        margin-top: 10px;
+        float: left;
+        margin-bottom: 30px;
+    }
+    .recent-campaign .row{
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .campaign-item {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .recent-campaign .donate-btn {
+        width: 45%;
+    }
+    .program-details {
+        width: 45%;
+    }
+
+
+
+    .events {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .events h1 {
+        font-size: 32px;
+    }
+    .events .row {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .event-item {
+        width: 100%;
+        padding: 20px;
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+    .time-loc {
+        width: 100%;
+    }
+
+
+    .team {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        padding-top: 100px;
+    }
+    .team .row {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    .team-item {
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 15vh;
+    }
+    .team h1 {
+        font-size: 31px;
+    }
+    .team-item .content {
+        bottom: -20vh;
+    }
+
+
+
+    .insights {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .insights h1 {
+        font-size: 32px;
+    }
+    .blog-item {
+        width: 100%;
+        flex-direction: column-reverse;
+        height: 54vh;
+        margin-bottom: 30px;
+    }
+    .blog-item .left{
+        width: 100%;
+    }
+    .blog-item .right{
+        width: 100%;
+    }
+
+
+    .footer {
+        flex-direction: column;
+        height: 30vh;
+        box-sizing: border-box;
+        padding: 6px;
+    }
+    .footer .first, .second, .third {
+        width: 100%;
     }
 }
